@@ -1,0 +1,72 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:gainsboro;
+
+}
+
+#center {
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 87%;
+  max-width: 700px;
+  min-width: 300px;
+  background-color: aliceblue
+  
+}
+
+#title, #description {
+  text-align: center;
+  color: black  
+}
+
+form {
+  padding: 20px;
+  font-size: 1.05em;
+  
+}
+
+.leftColumn {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  vertical-align: top;
+  
+}
+
+.rightColumn {
+  display: inline-block;
+  text-align: left;
+  width: 55%;
+  
+}
+
+textarea {
+  margin: auto;
+  width: 250px;
+  height: 200px;
+  
+}
+
+button {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 25px;
+  background-color: gold;
+  font-size: 0.9em;
+}
+
+button:hover {
+  background-color: goldenrod;
+}
+
+@media (max-width: 520px) {
+ textarea {
+    width:100%;
+  }
+}
